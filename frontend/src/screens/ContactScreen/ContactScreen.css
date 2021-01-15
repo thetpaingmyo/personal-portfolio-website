@@ -1,0 +1,19 @@
+.contactScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.contactScreen__title {
+  font-family: 'Redressed', cursive;
+  font-size: 40px;
+}
+
+.contactScreen__info {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}

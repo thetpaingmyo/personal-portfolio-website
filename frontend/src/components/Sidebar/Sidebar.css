@@ -1,0 +1,21 @@
+.sidebar {
+  height: 100vh;
+  background-color: #eee;
+  width: 250px;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__name {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Redressed', cursive;
+}

@@ -1,0 +1,16 @@
+.personalOverview {
+  background-color: #eee;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.personalOverview__title {
+  font-family: 'Redressed', cursive;
+  font-size: 30px;
+}
+
+.specialWord {
+  font-family: 'Redressed', cursive;
+  font-size: 20px;
+  color: #3f51b5;
+}

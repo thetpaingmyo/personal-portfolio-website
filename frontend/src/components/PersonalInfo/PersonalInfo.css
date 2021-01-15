@@ -1,0 +1,10 @@
+.personalInfo {
+  background-color: #eee;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.personalInfo__title {
+  font-family: 'Redressed', cursive;
+  font-size: 30px;
+}

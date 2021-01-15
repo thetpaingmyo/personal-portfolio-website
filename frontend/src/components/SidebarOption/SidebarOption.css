@@ -1,0 +1,16 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.sidebarOption:hover {
+  cursor: pointer;
+  background-color: #2787e7;
+  border-radius: 8px;
+  color: white;
+}
+
+.sidebarOption__menuText {
+  margin-left: 10px;
+}

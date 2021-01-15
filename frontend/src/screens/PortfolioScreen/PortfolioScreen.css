@@ -1,0 +1,9 @@
+.portfolioScreen {
+  height: 90vh;
+}
+
+.portfolioScreen__title {
+  font-family: 'Redressed', cursive;
+  text-align: center;
+  font-size: 40px;
+}

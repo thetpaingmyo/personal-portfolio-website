@@ -1,0 +1,148 @@
+.skills__list {
+  margin: 0px auto 30px;
+  width: 70%;
+}
+
+.skills__bar {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.skills__tag {
+  float: right;
+}
+
+.skills__HTML,
+.skills__CSS,
+.skills__JAVASCRIPT,
+.skills__PYTHON,
+.skills__REACT,
+.skills__EXPRESS,
+.skills__MONGODB,
+.skills__MYSQL,
+.skills__DJANGO {
+  height: 5px;
+  float: left;
+  background: #2787e7;
+  position: relative;
+}
+
+.skills__HTML {
+  width: 90%;
+  animation: skills__HTML 1s;
+}
+.skills__CSS {
+  width: 70%;
+  animation: skills__CSS 1s;
+}
+.skills__JAVASCRIPT {
+  width: 75%;
+  animation: skills__JAVASCRIPT 1s;
+}
+.skills__PYTHON {
+  width: 65%;
+  animation: skills__PYTHON 1s;
+}
+.skills__DJANGO {
+  width: 60%;
+  animation: skills__DJANGO 1s;
+}
+.skills__REACT {
+  width: 85%;
+  animation: skills__REACT 1s;
+}
+.skills__EXPRESS {
+  width: 75%;
+  animation: skills__EXPRESS 1s;
+}
+.skills__MONGODB {
+  width: 70%;
+  animation: skills__MONGODB 1s;
+}
+.skills__MYSQL {
+  width: 80%;
+  animation: skills__MYSQL 1s;
+}
+
+@keyframes skills__HTML {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes skills__CSS {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes skills__JAVASCRIPT {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes skills__PYTHON {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes skills__DJANGO {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes skills__REACT {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes skills__EXPRESS {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes skills__MONGODB {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes skills__MYSQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
